@@ -1,140 +1,173 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Soluzioni Informatiche G.Maione</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		
-		<!-- Wrapper -->
-		<div id="wrapper">
-			
-			<!-- Header -->
-			<header id="header" class="alt">
-				<span class="logo"><img src="images/logo.svg" alt="" /></span>
-				<h1>Soluzioni Informatiche</h1>
-				<p>Software Engineer | Full Stack Developer | Custom Software<br />
-				Giovanni Maione</p>
-			</header>
-			
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="#intro" class="active">Chi sono</a></li>
-					<li><a href="#first">Competenze</a></li>
-					<li><a href="#second">Progetti</a></li>
-				</ul>
-			</nav>
-			
-			<!-- Main -->
-			<div id="main">
-				
-				<!-- Introduction -->
-				<section id="intro" class="main">
-					<div class="spotlight">
-						<div class="content">
-							<header class="major">
-								<h2>La mia storia</h2>
-							</header>
-							<p>Da oltre 40 anni mi occupo di sviluppare soluzioni scalabili e ottimizzare processi digitali. Affronto problemi complessi per realizzare applicazioni personalizzate.</p>
-							<!--
-								<ul class="actions">
-								<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							--!>
-						</div>
-						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
-					</div>
-				</section>
-				
-				<!-- First Section -->
-				<section id="first" class="main special">
-					<header class="major">
-						<h2>Tech Stack</h2>
-					</header>
-					<ul class="features">
-						<li>
-							<span class="icon solid major style1 fa-code"></span>
-							<h3>Sviluppo Backend</h3>
-							<p>Esperienza consolidata con sistemi MultiValue (Pick / OpenQM), Java. Gestione database SQL e NoSQL. Applicazioni native Android e IOS</p>
-						</li>
-						<li>
-							<span class="icon major style3 fa-copy"></span>
-							<h3>Frontend</h3>
-							<p>Progettazione e realizzazioni di applicazioni gestionali personalizzate, multi utenti e cloud based.</p>
-						</li>
-						<li>
-							<span class="icon major style5 fa-gem"></span>
-							<h3>DevOps & Cloud</h3>
-							<p>Configurazione server Linux, server MySql / MariaDb su piattaforme VPN Cloud.</p>
-						</li>
-					</ul>
-					<footer class="major">
-						<!--
-							<ul class="actions special">
-							<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						--!>
-					</footer>
-				</section>
-				
-				<!-- Second Section -->
-				<section id="second" class="main special">
-					<header class="major">
-						<h2>Progetti Realizzati</h2>
-						<p>Una selezione dei lavori più significativi realizzati recentemente.</p>
-					</header>
-					<div class="content">
-						<ul class="statistics">
-							<li class="style1"><span class="icon solid fa-database"></span> Management Software</li>
-							<li class="style2"><span class="icon solid fa-mobile-alt"></span> App Mobile</li>
-							<li class="style3"><span class="icon solid fa-lock"></span> Sistema Sicurezza</li>
-						</ul>
-						<p>Ho lavorato a diversi progetti Open Source e soluzioni Enterprise, focalizzandomi su performance e sicurezza.</p>
-					</div>
-					<footer class="major">
-						<!--
-							<ul class="actions special">
-							<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						--!>
-					</footer>
-				</section>
-				
-				
-				
-			</div>
-			
-			<!-- Footer -->
-			<footer id="footer">
-				
-				<section>
-					<h2>Contatti</h2>
-					<dl class="alt">
-						<dt>Indirizzo</dt>
-						<dd>Via del monte 53 &bull; 80048 Sant'Anastasia &bull; NA</dd>
-						<dt>Telefono</dt>
-						<dd>(+39) 330557376</dd>
-						<dt>Email</dt>
-						<dd><a href="mailto:maionegianni@gmail.com">maionegianni@gmail.com</a></dd>
-					</dl>
-				</section>
-				<p class="copyright">&copy; Soluzioni Informatiche di G. Maione</p>
-			</footer>
-			
-		</div>
-		
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-		
-	</body>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovanni Maione | Senior Software Architect - Soluzioni Enterprise & Retail</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #010409;
+            --card-bg: #0d1117;
+            --accent: #58a6ff;
+            --text-main: #e6edf3;
+            --text-dim: #8b949e;
+            --border: #30363d;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; scroll-behavior: smooth; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--bg); color: var(--text-main); line-height: 1.8; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 25px; }
+
+        h1, h2, h3 { color: #fff; font-weight: 800; }
+        p { margin-bottom: 1.5rem; }
+        .gradient-text { background: linear-gradient(90deg, #fff, var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+        header { min-height: 90vh; display: flex; align-items: center; padding: 60px 0; border-bottom: 1px solid var(--border); }
+        .hero-desc { font-size: 1.25rem; color: var(--text-dim); max-width: 800px; margin-bottom: 30px; }
+
+        section { padding: 100px 0; border-bottom: 1px solid var(--border); }
+        .section-title { font-size: 2.5rem; margin-bottom: 50px; text-align: center; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+        .card { background: var(--card-bg); padding: 40px; border-radius: 16px; border: 1px solid var(--border); transition: 0.3s; }
+        .card:hover { border-color: var(--accent); transform: translateY(-5px); }
+        .card i { color: var(--accent); font-size: 2rem; margin-bottom: 20px; }
+        .card h3 { margin-bottom: 15px; }
+
+        .flex-row { display: flex; align-items: center; gap: 60px; flex-wrap: wrap; margin-bottom: 80px; }
+        .flex-text { flex: 1; min-width: 300px; }
+        .flex-img { flex: 1; min-width: 300px; }
+        .flex-img img { width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+
+        .check-list { list-style: none; margin-bottom: 30px; }
+        .check-list li { margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+        .check-list li i { color: #2ea44f; }
+
+        .btn { display: inline-block; padding: 16px 35px; background: var(--accent); color: #000 !important; text-decoration: none; border-radius: 8px; font-weight: 700; transition: 0.3s; border: none; }
+        .btn:hover { background: #fff; transform: scale(1.02); }
+
+        .whatsapp-btn { position: fixed; bottom: 30px; right: 30px; background: #2ea44f; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 30px; z-index: 1000; text-decoration: none; }
+
+        footer { padding: 40px 0; text-align: center; color: var(--text-dim); }
+
+        input, textarea { width: 100%; padding: 15px; margin-bottom: 15px; background: #010409; border: 1px solid var(--border); border-radius: 8px; color: #fff; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container" data-aos="fade-up">
+        <h4 style="color: var(--accent); letter-spacing: 2px; margin-bottom: 10px;">40 ANNI DI ECCELLENZA NELLO SVILUPPO SOFTWARE</h4>
+        <h1>Architetture Software su Misura per <span class="gradient-text">Imprese che Guardano al Futuro.</span></h1>
+        <p class="hero-desc">Non vendo pacchetti pronti. Progetto ecosistemi digitali che automatizzano i processi, eliminano gli sprechi e scalano insieme al tuo business.</p>
+        <a href="#contatti" class="btn">Richiedi una Consulenza Tecnica</a>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-img" data-aos="fade-right">
+                <img src="img/computer.jpg" alt="Analisi Software">
+            </div>
+            <div class="flex-text" data-aos="fade-left">
+                <h2>Il tuo software è un <span style="color: var(--accent);">asset</span> o un ostacolo?</h2>
+                <p>Risolvo le criticità strutturali che rallentano il tuo business:</p>
+                <ul class="check-list">
+                    <li><i class="fas fa-check-circle"></i> <strong>Ottimizzazione:</strong> Flussi operativi snelli.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Integrazione:</strong> Dati sincronizzati ovunque.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Sicurezza:</strong> Protezione totale dei dati enterprise.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="soluzioni" style="background: #0d1117;">
+    <div class="container">
+        <h2 class="section-title">Specializzazioni Tecniche</h2>
+        <div class="grid">
+            <div class="card" data-aos="fade-up">
+                <i class="fas fa-store"></i>
+                <h3>Retail & Smart POS</h3>
+                <p>Gestione taglie/colori e inventario in tempo reale per retail specialistico.</p>
+                <img src="img/pos.jpg" alt="POS" style="width:100%; border-radius:10px; margin-top:15px;">
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Migration</h3>
+                <p>Database sicuri e accessibili da remoto con architetture Cloud moderne.</p>
+                <img src="img/rete.jpg" alt="Rete" style="width:100%; border-radius:10px; margin-top:15px;">
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-microchip"></i>
+                <h3>Software Industriale</h3>
+                <p>Automazione e software custom per ottimizzare la catena di produzione.</p>
+                <img src="img/touch.jpg" alt="Touch" style="width:100%; border-radius:10px; margin-top:15px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contatti">
+    <div class="container">
+        <h2 class="section-title">Iniziamo un Progetto</h2>
+        <form id="contactForm" action="https://formspree.io/f/xdaynoor" method="POST" data-aos="zoom-in">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <input type="text" name="nome" placeholder="Tuo Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <textarea name="messaggio" rows="6" placeholder="Descrivi la tua necessità..." required></textarea>
+            <button type="submit" class="btn" style="width: 100%; cursor:pointer;">Invia Richiesta</button>
+            <div id="formStatus" style="margin-top:20px; text-align:center; font-weight: bold;"></div>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p><strong>Giovanni Maione</strong> | Sviluppo Software Napoli</p>
+        <p style="font-size: 0.8rem; margin-top:10px;">1980 - 2026</p>
+    </div>
+</footer>
+
+<a href="https://wa.me/39330557376" class="whatsapp-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 1000, once: true });
+    const form = document.getElementById('contactForm');
+    const status = document.getElementById('formStatus');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        status.innerHTML = 'Invio in corso...';
+        const data = new FormData(form);
+        try {
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: data,
+                headers: { 'Accept': 'application/json' }
+            });
+            if (response.ok) {
+                status.style.color = "#2ea44f";
+                status.innerHTML = "Messaggio inviato con successo!";
+                form.reset();
+            } else {
+                status.style.color = "#f85149";
+                status.innerHTML = "Errore nell'invio.";
+            }
+        } catch (error) {
+            status.innerHTML = "Errore di connessione.";
+        }
+    });
+</script>
+</body>
 </html>
